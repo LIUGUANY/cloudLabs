@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>云实验-平台管理</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+	<meta name="renderer" content="webkit">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/page-style.css">
+</head>
+<body class="cd-bg">
+<!--公共头-->
+<header>
+	<div class="cd-header">
+		<ul class="cd-nav of">
+			<li>
+				<a class="fl cd-logo" href="javascript:void(0);">
+					<img src="images/index/cloud-logo.png" alt="logo" width="205" height="40">
+				</a>
+			</li>
+			<li class="current">
+				<a href="javascript:void(0)" title="概况">概况</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)" title="虚拟云中心">虚拟云中心</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)" title="基础信息 ">基础信息 </a>
+			</li>
+			<li>
+				<a href="javascript:void(0)" title="实训平台">实训平台</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)" title="资料库">资料库</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)" title="系统管理">系统管理</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)" title="统计分析">统计分析</a>
+			</li>
+			<li class="fr">
+				<span class="cd-user">
+					<img src="images/index/user-icon.png" alt="user-avatar" width="24" height="24">
+					<span class="fsize14">admin</span>
+					<a href="javascript:void(0);">退出登录</a>
+				</span>
+			</li>
+		</ul>
+	</div>
+</header>
+<!--/公共头-->
+<!--main-->
+<article class="cd-main">
+	<section id="leftSide" class="cd-index-left">
+		<p class="cd-left-title">
+			虚拟云中心
+		</p>
+		<ul class="nav-bar">
+			<li class="nav-item active ">
+				<a class="nav-hf" href="javascript:void(0);">
+					<i class="cd-icon in-icon-1"></i>
+					<span class="ml5">资源管理</span>
+				</a>
+			</li>
+			<li class="nav-item active ">
+				<a class="nav-hf" href="javascript:void(0);">
+					<i class="cd-icon in-icon-2"></i>
+					<span class="ml5">虚拟云中心</span>
+				</a>
+			</li>
+			<li class="nav-item active ">
+				<a class="nav-hf" href="javascript:void(0);">
+					<i class="cd-icon in-icon-3"></i>
+					<span class="ml5">网络策略管理</span>
+				</a>
+			</li>
+			<li class="nav-item active ">
+				<a class="nav-hf" href="javascript:void(0);">
+					<i class="cd-icon in-icon-4"></i>
+					<span class="ml5">设备管理</span>
+				</a>
+			</li>
+			<li class="nav-item active ">
+				<a class="nav-hf" href="javascript:void(0);">
+					<i class="cd-icon in-icon-5"></i>
+					<span class="ml5">镜像管理</span>
+				</a>
+			</li>
+			<li class="nav-item active ">
+				<a class="nav-hf" href="javascript:void(0);">
+					<i class="cd-icon in-icon-6"></i>
+					<span class="ml5">存储策略管理</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<section id="rightSide" class="cd-index-right">
+		<p class="cd-breadcrumb">
+			<span class="cd-current">当前位置：</span><a href="javascript:void(0);">角色管理</a> - <span>修改角色</span>
+		</p>
+		<section class="cd-right-content">
+			<div class="cd-notice-box">【重要公告】关于没有域名实名的用户，务必抓紧实名认证；已经进入6月，陆续有未实名的用户域名被cnnic停止解析，请务必重视，以免您的网站无法访问！</div>
+			<p class="cd-title mt30">平台管理</p>
+			<div class="cd-operate mt20 of">
+				<div class="fl">
+					<form class="form-inline">
+						<div class="form-group">
+							<label class="fsize14 c-555 clear-bold">平台名称：</label>
+							<input type="text" class="form-control"  placeholder="请输入关键字">
+						</div>
+						<a class="btn btn-default search-btn ml5">搜索</a>
+					</form>
+				</div>
+				<div class="fr">
+					<a class="btn btn-default add-btn" href="javascript:void(0)">添加</a>
+					<a class="btn btn-default del-btn ml5" href="javascript:void(0);">删除</a>
+				</div>
+			</div>
+			<div class="cd-manage-list mt20">
+				<p class="cd-bg-line"></p>
+				<div class="table-responsive">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>
+									<p class="checkbox_box">
+										<input class="checkBox" type="checkbox" name="" value="">
+										<span class="checkBox"></span>
+									</p>
+								</th>
+								<th>
+									平台名称
+								</th>
+								<th>
+									平台描述
+								</th>
+								<th>
+									平台路径
+								</th>
+								<th>
+									平台照片路径
+								</th>
+								<th class="tac">
+									状态
+								</th>
+								<th class="tac">
+									操作
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>
+								<p class="checkbox_box">
+									<input class="checkBox" type="checkbox" name="" value="">
+									<span class="checkBox"></span>
+								</p>
+							</td>
+							<td>
+								大数据
+							</td>
+							<td>
+								11255
+							</td>
+							<td>
+								566332
+							</td>
+							<td>
+								496+747+7
+							</td>
+							<td class="tac">
+								启用
+							</td>
+							<td class="tac">
+								<a class="cd-icon et-icon edit-icon" href="javascript:void(0);" title="编辑"></a>
+								<!--<a class="cd-icon et-icon edit-icon accredit-icon" href="javascript:void(0);" title="编辑"></a>-->
+								<a class="cd-icon et-icon del-icon" href="javascript:void(0);" title="删除"></a>
+								<a class="cd-icon et-icon enter-icon" href="javascript:void(0);" title="进入"></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="checkbox_box">
+									<input class="checkBox" type="checkbox" name="" value="">
+									<span class="checkBox"></span>
+								</p>
+							</td>
+							<td>
+								大数据
+							</td>
+							<td>
+								11255
+							</td>
+							<td>
+								566332
+							</td>
+							<td>
+								496+747+7
+							</td>
+							<td class="tac">
+								启用
+							</td>
+							<td class="tac">
+								<a class="cd-icon et-icon edit-icon" href="javascript:void(0);" title="编辑"></a>
+								<a class="cd-icon et-icon del-icon" href="javascript:void(0);" title="删除"></a>
+								<a class="cd-icon et-icon enter-icon" href="javascript:void(0);" title="进入"></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="checkbox_box">
+									<input class="checkBox" type="checkbox" name="" value="">
+									<span class="checkBox"></span>
+								</p>
+							</td>
+							<td>
+								大数据
+							</td>
+							<td>
+								11255
+							</td>
+							<td>
+								566332
+							</td>
+							<td>
+								496+747+7
+							</td>
+							<td class="tac">
+								启用
+							</td>
+							<td class="tac">
+								<a class="cd-icon et-icon edit-icon" href="javascript:void(0);" title="编辑"></a>
+								<a class="cd-icon et-icon del-icon" href="javascript:void(0);" title="删除"></a>
+								<a class="cd-icon et-icon enter-icon" href="javascript:void(0);" title="进入"></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="checkbox_box">
+									<input class="checkBox" type="checkbox" name="" value="">
+									<span class="checkBox"></span>
+								</p>
+							</td>
+							<td>
+								大数据
+							</td>
+							<td>
+								11255
+							</td>
+							<td>
+								566332
+							</td>
+							<td>
+								496+747+7
+							</td>
+							<td class="tac">
+								启用
+							</td>
+							<td class="tac">
+								<a class="cd-icon et-icon edit-icon" href="javascript:void(0);" title="编辑"></a>
+								<a class="cd-icon et-icon del-icon" href="javascript:void(0);" title="删除"></a>
+								<a class="cd-icon et-icon enter-icon" href="javascript:void(0);" title="进入"></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="checkbox_box">
+									<input class="checkBox" type="checkbox" name="" value="">
+									<span class="checkBox"></span>
+								</p>
+							</td>
+							<td>
+								大数据
+							</td>
+							<td>
+								11255
+							</td>
+							<td>
+								566332
+							</td>
+							<td>
+								496+747+7
+							</td>
+							<td class="tac">
+								启用
+							</td>
+							<td class="tac">
+								<a class="cd-icon et-icon edit-icon" href="javascript:void(0);" title="编辑"></a>
+								<a class="cd-icon et-icon del-icon" href="javascript:void(0);" title="删除"></a>
+								<a class="cd-icon et-icon enter-icon" href="javascript:void(0);" title="进入"></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="checkbox_box">
+									<input class="checkBox" type="checkbox" name="" value="">
+									<span class="checkBox"></span>
+								</p>
+							</td>
+							<td>
+								大数据
+							</td>
+							<td>
+								11255
+							</td>
+							<td>
+								566332
+							</td>
+							<td>
+								496+747+7
+							</td>
+							<td class="tac">
+								启用
+							</td>
+							<td class="tac">
+								<a class="cd-icon et-icon edit-icon" href="javascript:void(0);" title="编辑"></a>
+								<a class="cd-icon et-icon del-icon" href="javascript:void(0);" title="删除"></a>
+								<a class="cd-icon et-icon enter-icon" href="javascript:void(0);" title="进入"></a>
+							</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+				<!--分页-->
+				<div class=" cd-top-line pr">
+					<section class="com-paging">
+						<div class="of">
+							<ul>
+								<li class="page_number w55">首页</li>
+								<li class="page_number w55">上一页</li>
+								<li class="page_number w40">1</li>
+								<li class="page_number w40">2</li>
+								<li class="page_number w40">3</li>
+								<li class="page_number w40">4</li>
+								<li class="page_number w40">5</li>
+								<li class="page_number w55">下一页</li>
+								<li class="page_number w55">末页</li>
+								<li class="total_num fl vam fsize14">共2488条</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+	</section>
+</article>
+<!--/main-->
+<!--footer(begin)-->
+<footer class="cd-com-foot">
+	<div class="tac  of">
+		<p class="fl">
+			<img src="images/login/xf-ewm.png" alt="二维码" width="78" height="78">
+		</p>
+		<div class="fl ml20">
+			<p class="tal mt10 mb10">
+				<img src="images/login/xf-logo.png" alt="logo" width="132" height="35" class="mr50">
+			</p>
+			<span class="tal">Copyright © 2017 - 2020 深圳市讯方技术股份有限公司 粤ICP备12068225号-1</span>
+		</div>
+	</div>
+</footer>
+<!--/footer(end)-->
+<!--loading-->
+<div class="cd-mask">
+	<img src="images/loading.gif" alt="">
+</div>
+<!--/loading-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+	/*loading*/
+	function load(){
+		var $mask = $(".cd-mask");
+		$mask.height($(document).height());
+		/*显示loading*/
+		$mask.show();
+		//loading显示消除右侧滚动条，隐藏恢复
+		$mask.is(":hidden")?$("body").css({"height":"auto","overflow":"auto"}):$("body").css({"height":"100%","overflow":"hidden"});
+		return false;
+	}
+	$(".edit-icon").click(function(e){
+		e.stopPropagation();
+		load();
+	})
+	function close(){
+		var $mask = $(".cd-mask");
+		$mask.hide();
+		//loading显示消除右侧滚动条，隐藏恢复
+		$mask.is(":hidden")?$("body").css({"height":"auto","overflow":"auto"}):$("body").css({"height":"100%","overflow":"hidden"});
+		return false;
+	}
+	$("body").on("click",function(){
+		close();
+	})
+</script>
+</body>
+</html>
